@@ -52,6 +52,9 @@ body {
   -webkit-box-shadow: none;
   box-shadow: none;
   width: 100%;
+  -webkit-appearance: normal !important;
+  -moz-appearance: normal !important;
+  appearance: normal !important;
 }
 .pure-form input[type='text']:focus,
 .pure-form input[type='password']:focus,
