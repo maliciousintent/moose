@@ -7,21 +7,21 @@ block title
 
 block app
   .page
-    .spacer-60
+    .spacer-60.desktop
     .container
-      .pure-g
+      .pure-g-r
         .pure-u-1-2
           .spacer-60
           img(src='static/img/moose-logo.png', width='150')
           h2 Bring life to your website
           p.light Moose is coming late 2014
-            br
+            br.desktop
             | but we need your help and support!
 
           .spacer-20
           p.light
             small Moose has been invented with love
-              br
+              br.desktop
               | by 
               a.link(href='http://plasticpanda.com', target='_blank') Plastic Panda
               |  in Milan
@@ -30,12 +30,17 @@ block app
           p.light
             a.link.link-accent(href='static/pdf/moose-v0.4.pdf', target='_blank') Discover more here
 
+          hr.mobile
+
         .pure-u-1-2
 
           h2 Keep informed
-          p.light We will no bother you with obsolete e-mails,
-            br
+          p.light We won't bother you with lot of emails,
+            br.desktop
             | we promise!
+          
+          .spacer-20.mobile
+
           #mc_embed_signup
             form.pure-form(action="http://plasticpanda.us3.list-manage.com/subscribe/post?u=f9372b71842d5abe1a41e1edc&amp;id=d831df4846", method="post", id="mc-embedded-subscribe-form", name="mc-embedded-subscribe-form", class="validate", target="_blank", required)
               
