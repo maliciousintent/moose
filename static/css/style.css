@@ -49,8 +49,8 @@ body {
 .pure-form textarea {
   padding: 12px 15px;
   border-width: 2px !important;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
   width: 100%;
   -webkit-appearance: normal !important;
   -moz-appearance: normal !important;
