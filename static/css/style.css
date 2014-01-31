@@ -252,3 +252,11 @@ p.light {
     display: none;
   }
 }
+@media (max-width: 480px) {
+  .pure-form {
+    text-align: left;
+  }
+  .pure-form label {
+    font-size: 11px;
+  }
+}
