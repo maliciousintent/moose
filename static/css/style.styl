@@ -142,9 +142,12 @@ p.light
     margin auto
 
 @media (max-width: 767px)
-  form.pure-form.pure-form
+  .pure-form
+    text-align left
     input[type='text'], input[type='password'], input[type='email'], input[type='url'], input[type='date'], input[type='month'], input[type='time'], input[type='datetime'], input[type='datetime-local'], input[type='week'], input[type='number'], input[type='search'], input[type='tel'], input[type='color'], select, textarea
       width 100%
+    label
+      font-size 11px
 
   .container
     text-align center
@@ -153,9 +156,3 @@ p.light
     display block
   .desktop
     display none
-
-@media (max-width: 480px)
-  .pure-form
-    text-align left
-    label
-      font-size 11px
