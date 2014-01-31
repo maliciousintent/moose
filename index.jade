@@ -1,0 +1,51 @@
+extends layout
+
+block title
+  | Welcome to Moose your personal CMS
+
+//-block links
+
+block app
+  .page
+    .spacer-60
+    .container
+      .pure-g
+        .pure-u-1-2
+          .spacer-60
+          img(src='/static/img/moose-logo.png', width='150')
+          h2 Bring life to your website
+          p.light Coming soon in 2014
+
+        .pure-u-1-2
+
+          h2 Keep informed
+          #mc_embed_signup
+            form.pure-form(action="http://plasticpanda.us3.list-manage.com/subscribe/post?u=f9372b71842d5abe1a41e1edc&amp;id=d831df4846", method="post", id="mc-embedded-subscribe-form", name="mc-embedded-subscribe-form", class="validate", target="_blank", required)
+              
+              .mc-field-group
+                label(for="mce-EMAIL") Email Address
+                input(type="email", value="", name="EMAIL", class="required email", id="mce-EMAIL")
+
+              .mc-field-group
+                label(for="mce-FNAME") First Name
+                input(type="text", value="", name="FNAME", class="", id="mce-FNAME")
+
+              .mc-field-group
+                label(for="mce-LNAME") Last Name
+                input(type="text", value="", name="LNAME", class="", id="mce-LNAME")
+              
+              #mce-responses.clear
+                .response#mce-error-response(style="display:none")
+                .response#mce-success-response(style="display:none")
+
+              div(style="position: absolute; left: -5000px;")
+                input(type="text", name="b_f9372b71842d5abe1a41e1edc_d831df4846", value="")
+
+              .spacer-20
+              button.pure-button(type="submit", name="subscribe", id="mc-embedded-subscribe") Subscribe
+
+    .spacer-100
+
+  .notify
+    h4 We'll be at the StartupWeekend in Milan on Jan, 31st :-)
+//-block scripts
